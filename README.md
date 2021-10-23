@@ -31,7 +31,7 @@
 
 ## CTAT
 
-![image](Images/p3.png)
+![image](Images/p3.PNG)
 
 ## PTAT
 ![image](Images/p4.png)
