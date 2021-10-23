@@ -173,9 +173,9 @@ The design has been built using open-source EDA tools. The library used is osu18
 
 To perform the lvs check give the following command
 
-''' 
+``` 
 lvs pre_layout.spice post_layout.spice <netgen_rule.tcl> 
-'''
+```
 
 
 
