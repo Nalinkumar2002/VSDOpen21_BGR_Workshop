@@ -157,6 +157,10 @@ The design has been built using open-source EDA tools. The library used is osu18
 
 ![image](Images/top.png)
 
+## Post layout Simulation
+
+![image](Images/topp.png)
+
 
 
 ## Author
