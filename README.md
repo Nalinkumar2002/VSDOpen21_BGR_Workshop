@@ -21,6 +21,29 @@
 
 # Introduction
 
+- Temperature-Independent voltage reference circuits are  widely used in ICs.
+- It Produces constant voltage regardless of vcc variation, temp. changes.
+- Power supply like battery is unsuitable for use as a reference voltage source and its voltage drops over time. so, it is also not suitable.
+- A Bandgap reference circuit that can be integrated into CMOS, Bi-CMOS, or Bipolar technologies without the use of external components. So, BGR is more prefered.
+
+![image](Images/p1.png)
+![image](Images/p2.png)
+
+## CTAT
+![image](Images/p3.png)
+
+## PTAT
+![image](Images/p4.png)
+
+## Self-Bias Current Mirror
+![image](Images/p5.png)
+
+## Startup Circuit
+![image](Images/p6.png)
+
+## BGR Circuit
+![image](Images/p7.png)
+
 
 # EDA Tools Used 
 The design has been built using open-source EDA tools. The library used is osu180nm. 
@@ -46,37 +69,61 @@ The design has been built using open-source EDA tools. The library used is osu18
 
 # Pre-layout 
 
+## BGR tt Corner
+
 ![image](Images/bgr_lvt_rpolyh_3p40.png)
+
+
 
 ![image](Images/bgr_lvt_rpolyh_3p40_1.png)
 
+
+## BGR ff Corner
 ![image](Images/bgr_lvt_rpolyh_3p40_ff.png)
 
+
+
 ![image](Images/bgr_lvt_rpolyh_3p40_ff_1.png)
+
+## BGR ss Corner
 
 ![image](Images/bgr_lvt_rpolyh_3p40_ss.png)
 
 ![image](Images/bgr_lvt_rpolyh_3p40_ss_1.png)
 
+## BGR various Supply
+
 ![image](Images/bgr_lvt_rpolyh_3p40_var_supply.png)
 
 ![image](Images/bgr_lvt_rpolyh_3p40_var_supply_1.png)
+
+## Ideal opamp BGR
 
 ![image](Images/bgr_using_ideal_opamp.png)
 
 ![image](Images/bgr_using_ideal_opamp_1.png)
 
+## CTAT
+
+![image](Images/ctat_voltage_gen.png)
+
 ![image](Images/ctat_voltage_gen_mul_bjt.png)
 
 ![image](Images/ctat_voltage_gen_var_current.png)
 
+## FET 
+
 ![image](Images/fet_tempco.png)
+
+## PTAT
 
 ![image](Images/ptat_voltage_gen.png)
 
 ![image](Images/ptat_voltage_gen_1.png)
 
 ![image](Images/ptat_voltage_gen_ideal_current_source.png)
+
+## Resistor
 
 ![image](Images/res_tempco.png)
 
