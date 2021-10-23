@@ -14,7 +14,7 @@
 - [EDA Tools Used](#eda-tools-used)
 - [Pre-layout](#Pre-layout)
 - [Post-layout](#Post-Layout)
-- [ Author](#Author)
+- [ Report by](#Report-by)
 - [ Acknowledgments](#acknowledgments)
 - [References](#References)
 
@@ -30,6 +30,7 @@
 ![image](Images/p2.png)
 
 ## CTAT
+
 ![image](Images/p3.png)
 
 ## PTAT
@@ -135,35 +136,51 @@ The design has been built using open-source EDA tools. The library used is osu18
 
 # Post-layout 
 
+## Nfet
 ![image](Images/nfet.png)
 
+## Nfets
 ![image](Images/nfets.png)
 
+## Pfet
 ![image](Images/pfet.png)
 
+## Pfets
 ![image](Images/pfets.png)
 
+## PNP
 ![image](Images/pnp10.png)
 
 ![image](Images/pnp1.png)
 
+## Resistors
 ![image](Images/res.png)
 
-![image](Images/nfet.png)
-
+## Resistor bank
 ![image](Images/resb.png)
 
+# Startup Circuit
 ![image](Images/str.png)
 
+## BGR Circuit
 ![image](Images/top.png)
 
 ## Post layout Simulation
 
 ![image](Images/topp.png)
 
+## LVS Check
+
+To perform the lvs check give the following command
+
+''' 
+lvs pre_layout.spice post_layout.spice <netgen_rule.tcl> 
+'''
 
 
-## Author
+
+
+## Report By
 
 🖊️  Nalinkumar S , B.E (Electronics and Communication Engineering), Madras Institute of Technology, Anna University, Tamil Nadu 
 
